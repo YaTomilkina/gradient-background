@@ -1,0 +1,45 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output
+dist/
+build/
+coverage/
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/
+.idea/
+*.swp
+
+# Test artifacts
+jest-html-reporters-*
+
+# Temporary files
+*.tmp
+*.temp
+
+# Example/demo artifacts
+example/*.png
+example/*.jpg
+
+# Lock files (if using only one manager, you can remove others)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
