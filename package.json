@@ -23,6 +23,14 @@
     "seed",
     "background-generator"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YaTomilkina/gradient-seed-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YaTomilkina/gradient-seed-generator/issues"
+  },
+  "homepage": "https://github.com/YaTomilkina/gradient-seed-generator#readme",
   "author": "yatomilkina",
   "license": "MIT",
   "dependencies": {
