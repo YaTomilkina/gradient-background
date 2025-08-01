@@ -18,7 +18,7 @@ It creates unique, reproducible gradient images from any input string.
 ## 🚀 Installation
 
 ### Install from npm
-npm install gradient-background
+npm i gradient-seed-generator
 
 ---
 
@@ -64,10 +64,9 @@ Generates a base64 PNG image from the given seed.
 ---
 
 ## 🖥 Node.js
-You can use node-canvas in Node.js:
+You can use it in Node.js:
 
 ```bash
-import { createCanvas } from 'canvas';
 import { gradient } from 'gradient-generator';
 
 const imgData = gradient('Node Example', { size: 512 });
