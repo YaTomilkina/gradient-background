@@ -8,8 +8,6 @@ export function gradient(seedString, options = {}) {
 
     const config = buildConfig(options);
 
-    console.log(config);
-
     const canvas = document.createElement('canvas');
     canvas.width = size;
     canvas.height = size;

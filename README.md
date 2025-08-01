@@ -25,19 +25,23 @@ npm install gradient-background
 ## 🔧 Usage
 
 ### Basic example
+
+```bash
 import { gradient } from 'gradient-background';
 const img = document.createElement('img');
 img.src = gradient('John Doe');
 document.body.appendChild(img);
+```
 
 ### With options
+```bash
 const imageDataUrl = gradient('John Doe', {
 size: 512,
 shapes: true,
 theme: 'dark',
 gradientType: 'radial'
 });
-
+```
 ---
 
 ## 📚 API
@@ -55,13 +59,16 @@ Generates a base64 PNG image from the given seed.
 
 ## 🎨 Example Output
 
-![Example](example/img.png)
+![Example](img.png)
 
 ---
 
 ## 🖥 Node.js
 You can use node-canvas in Node.js:
+
+```bash
 import { createCanvas } from 'canvas';
 import { gradient } from 'gradient-generator';
 
 const imgData = gradient('Node Example', { size: 512 });
+```

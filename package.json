@@ -1,6 +1,6 @@
 {
-  "name": "gradient-background",
-  "version": "1.0.0",
+  "name": "gradient-seed-generator",
+  "version": "1.0.1",
   "description": "Seed-based gradient and blob shape generator for browser and Node.js",
   "main": "src/gradient.js",
   "module": "src/gradient.js",
@@ -15,7 +15,16 @@
     "build": "echo 'No build step needed'",
     "test": "node --test"
   },
-  "keywords": ["gradient", "avatar", "canvas", "blob", "seed"],
+  "keywords": [
+    "gradient",
+    "avatar",
+    "canvas",
+    "blob",
+    "seed"
+  ],
   "author": "yatomilkina",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "gradient-seed-generator": "^1.0.0"
+  }
 }
