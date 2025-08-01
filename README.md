@@ -59,7 +59,7 @@ Generates a base64 PNG image from the given seed.
 
 ## 🎨 Example Output
 
-![Example](img.png)
+![Example](https://raw.githubusercontent.com/yatomilkina/gradient-background/main/example/img.png)
 
 ---
 
