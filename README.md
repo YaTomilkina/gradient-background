@@ -61,13 +61,3 @@ Generates a base64 PNG image from the given seed.
 
 ![Example](https://raw.githubusercontent.com/yatomilkina/gradient-background/main/example/img.png)
 
----
-
-## 🖥 Node.js
-You can use it in Node.js:
-
-```bash
-import { gradient } from 'gradient-generator';
-
-const imgData = gradient('Node Example', { size: 512 });
-```
