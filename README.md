@@ -1,6 +1,6 @@
 # 🎨 Gradient Background Generator
 
-A lightweight, seed-based gradient and blob shape generator for the browser or Node.js.  
+A lightweight, seed-based gradient and blob shape generator.  
 It creates unique, reproducible gradient images from any input string.
 
 ---
@@ -11,7 +11,7 @@ It creates unique, reproducible gradient images from any input string.
 - 💧 Organic shapes (blobs): configurable count, blur, and alpha.
 - 🎨 Color schemes: complementary colors with evenly spaced hues.
 - 🔄 Deterministic randomness: colors and positions are reproducible.
-- 🖼 Canvas-based: outputs data:image/png URLs ready for <img> tags or Node.js.
+- 🖼 Canvas-based: outputs data:image/png URLs ready for <img> tags.
 
 ---
 
