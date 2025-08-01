@@ -1,6 +1,6 @@
 {
   "name": "gradient-seed-generator",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Seed-based gradient and blob shape generator",
   "main": "src/gradient.js",
   "module": "src/gradient.js",
