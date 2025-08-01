@@ -19,8 +19,9 @@
     "gradient",
     "avatar",
     "canvas",
-    "blob",
-    "seed"
+    "background",
+    "seed",
+    "background-generator"
   ],
   "author": "yatomilkina",
   "license": "MIT",
